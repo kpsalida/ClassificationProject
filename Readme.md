@@ -1,4 +1,4 @@
-# Finding the factors that affect customer satisfaction for an airline company
+# Identifying the factors that affect customer satisfaction for an airline company
 
 ---
 
