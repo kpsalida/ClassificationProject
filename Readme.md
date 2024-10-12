@@ -23,6 +23,12 @@ This project is associated with the Big Blue Data Science Bootcamp - April 2024.
 ├── presentation <- Presentation with findings
 
 ```
+
+## A sneak peak of the factors affecting Customer Satisfaction
+
+Here is the importance of features for predicting customer satisfaction:
+
+![Feature Importance](Features.jpg)
 ## Participants
 
 - Katerina Psallida
