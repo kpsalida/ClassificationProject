@@ -22,7 +22,15 @@ Two questions, both actionable for an airline's customer experience team:
 - **Business class passengers are satisfied by a wide margin (~70%)**; Eco and Eco Plus passengers are overwhelmingly dissatisfied (~80%) — the single clearest satisfaction driver in the dataset
 - **Loyal customers split evenly** between satisfied and dissatisfied, while **disloyal customers are overwhelmingly dissatisfied** — suggesting dissatisfaction is likely a cause of disloyalty, not just a correlate
 - **Middle-aged passengers (36–55) are the most satisfied age group**; both the youngest (0–18) and oldest (66+) groups skew heavily dissatisfied
-- Delay length and flight duration have only a modest relationship with satisfaction — Business class stays satisfied regardless of delay, while Eco/Eco Plus stay dissatisfied regardless of delay. The *service experience itself*, not operational friction, appears to be the dominant factor
+- Delay length and flight duration have only a modest relationship with satisfaction, and travel class dominates both:
+
+![Satisfaction by departure delay, across class, travel type, and customer type](satisfaction-by-delay.jpg)
+
+  Business class stays majority-satisfied at every delay length, from 0–5 minutes up to 241+ minutes; Eco and Eco Plus stay overwhelmingly dissatisfied (~80%+) at every delay length too. The class itself, not the delay, is driving the outcome.
+
+![Satisfaction by flight distance, across class, travel type, and customer type](satisfaction-by-distance.jpg)
+
+  The same pattern holds for flight duration — and Business class satisfaction actually *increases* with longer flights (from ~60% at under 1,000 miles to ~78% at 3,000–4,000 miles), while Eco/Eco Plus stay dissatisfied across every distance band. The *service experience itself*, not operational friction, appears to be the dominant factor.
 
 ## Data Preparation
 
