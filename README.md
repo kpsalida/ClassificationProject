@@ -18,7 +18,9 @@ Two questions, both actionable for an airline's customer experience team:
 
 ![Satisfaction by class, age group, and customer type](satisfaction-by-class-age-type.jpg)
 
-- The dataset is well-balanced: roughly even gender split, 80% loyal customers, 70% business travel, and a roughly even satisfied/dissatisfied split overall
+![Distribution of key variables: gender, customer type, travel type, class, and satisfaction](distribution-overview.jpg)
+
+- The dataset is well-balanced: roughly even gender split (50.7%/49.3%), 81.7% loyal customers, 69.1% business travel, and a roughly even satisfied/dissatisfied split overall (43.4%/56.6%)
 - **Business class passengers are satisfied by a wide margin (~70%)**; Eco and Eco Plus passengers are overwhelmingly dissatisfied (~80%) — the single clearest satisfaction driver in the dataset
 - **Loyal customers split evenly** between satisfied and dissatisfied, while **disloyal customers are overwhelmingly dissatisfied** — suggesting dissatisfaction is likely a cause of disloyalty, not just a correlate
 - **Middle-aged passengers (36–55) are the most satisfied age group**; both the youngest (0–18) and oldest (66+) groups skew heavily dissatisfied
@@ -72,7 +74,7 @@ Feature importance was extracted directly from the tree-based model (`feature_im
 
 ![Confusion matrix on the held-out validation set](validation-confusion-matrix.jpg)
 
-The final model was tested against a validation set it had never seen during training, achieving **94.2% accuracy** — close enough to the training/test performance to confirm the model generalizes well rather than overfitting. Predictions were also mapped back to individual `CustomerID`s, demonstrating the model works at the level an actual business application would need: flagging specific at-risk customers, not just aggregate statistics.
+The final model was tested against a validation set it had never seen during training, achieving **96.2% accuracy** — close enough to the training/test performance to confirm the model generalizes well rather than overfitting. Predictions were also mapped back to individual `CustomerID`s, demonstrating the model works at the level an actual business application would need: flagging specific at-risk customers, not just aggregate statistics.
 
 ## Key Takeaways
 
