@@ -2,7 +2,7 @@
 
 A supervised machine learning project identifying which factors most influence whether an airline passenger reports satisfaction — and building a classifier accurate enough to predict it for individual, previously unseen customers.
 
-**Project:** Big Blue Data Academy, Data Science Bootcamp · **Duration:** 1 day
+**Project:** Big Blue Data Academy, Data Science Bootcamp · 2024 · **Duration:** 1 day
 
 ## Business Case
 
